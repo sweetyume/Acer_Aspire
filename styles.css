@@ -1,0 +1,236 @@
+body {
+  background-color: #FFFFFF;
+  background-position: center;
+  font-weight: lighter;
+  font-family: 'Foco Bold', sans-serif;
+}
+
+@font-face {
+  font-family: 'Foco Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Foco Bold'), url('FOCO2/FOCOBOLD.woff') format('woff');
+}
+
+
+/*NAVIGATION*/
+
+#navbar1 {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar-brand {
+  display: block;
+  color: black;
+  float: left;
+  height: 70px;
+  width: auto;
+}
+#logo {
+  display: block;
+  float: left;
+}
+
+.navbar-brand:hover {
+  font-weight: bold;
+  color: black;
+  background-color: #D9EDC7;
+}
+
+.navbar-nav>li a {
+  font-size: .875em;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+}
+
+.navbar-nav>li a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+#myNavbar {
+  background-color: #D9EDC7;
+}
+.aspirev {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: lighter;
+}
+/**/
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  background-image: url("images/1.jpg");
+  margin-bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /*background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;*/
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 5rem;
+  line-height: 0.9;
+  font-family: 'Foco Bold';
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.h2 {
+  color: white;
+}
+
+.logos-windows {
+  display: flex;
+}
+
+#btn-acheter {
+  background-color: #80C342;
+  border: 2px solid white;
+  color: white;
+}
+
+#btn-acheter:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/*FIN JUMBOTRON*/
+
+
+/*THUMBNAILS BLOCK 3*/
+
+.thumbnail {
+  border: none;
+  padding: 20px;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+/**/
+/*BLOCK 4*/
+
+.block4 {
+  display: block;
+  text-align: center;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  color: #4C4C4C;
+  padding: 25px;
+}
+
+.block4 p, .block5 p {
+  color: #C9C9C9;
+  font-size: 25px;
+  font-weight: normal;
+  padding: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/**/
+
+/*BLOCK 5*/
+
+.block5 {
+  display: block;
+  text-align: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+
+/**/
+
+
+/*BLOCK 6*/
+
+.block6 {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+/**/
+
+
+/*BLOCK 7 MENTIONS*/
+
+#block7 {
+  background-color: #616161;
+  color: #B0B0B0;
+  font-size: 12px;
+  padding: 50px;
+}
+
+
+/**/
+
+
+/*BLOCK 8 A PROPOS FOOTER*/
+
+#block8 {
+  background-color: #424242;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.list-group {
+  list-style: none;
+}
+
+.list-group a {
+  color: #BDBDBD;
+}
+
+h4 {
+  color: white;
+}
+#reseaux p{
+  color: #BDBDBD;
+
+}
+
+
+/**/
+
+
+/*BLOCK 9*/
+
+#block9 {
+  background-color: #202020;
+  display: flex;
+  justify-content: flex-end;
+  height: 150px;
+
+}
+
+#block9 p, #block9 a {
+  color: #BDBDBD;
+}
+
+.end {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.logo-white {
+  width: 30%;
+}
+/**/
+/**/
